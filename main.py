@@ -40,25 +40,11 @@ class QueryResponse(BaseModel):
     response: str
 
 
-# Endpoint to interact with OpenAI API via LangChain
 @app.post("/query", response_model=QueryResponse)
 async def query_openai(request: QueryRequest):
     try:
-        # Set your OpenAI API key
-        
-
-        # Call the OpenAI API via LangChain
-        chat_completion = client.chat.completions.create(
-            messages=[
-                {
-                    "role": "user",
-                    "content": "Say this is a test",
-                }
-            ],
-            model="gpt-3.5-turbo",
-        )
-
-        return QueryResponse(response=chat_completion.choices[0].message.content)
+        # Return the simple bot response
+        return QueryResponse(response="I’m a simple bot. I don’t have real responses yet!")
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
