@@ -1,6 +1,6 @@
 {
   "name": "client",
-  "homepage": "https://bchaicourse.github.io/course-tools-demo/",
+  "homepage": "http://localhost:3001/course-tools-demo",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -42,6 +42,6 @@
   },
   "devDependencies": {
     "daisyui": "^4.12.10",
-    "tailwindcss": "^3.4.10"
+    "tailwindcss": "^3.4.12"
   }
 }
