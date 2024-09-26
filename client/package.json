@@ -1,14 +1,12 @@
 {
   "name": "client",
-  "homepage": "http://JPangrr.github.io/my-app",
+  "homepage": "https://JPangrr.github.io/my-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "axios": "^1.7.7",
-    "d3": "^7.9.0",
     "d3-dsv": "^3.0.1",
     "gh-pages": "^6.1.1",
     "react": "^18.3.1",
@@ -45,6 +43,6 @@
   },
   "devDependencies": {
     "daisyui": "^4.12.10",
-    "tailwindcss": "^3.4.12"
+    "tailwindcss": "^3.4.13"
   }
 }
