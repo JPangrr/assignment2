@@ -1,6 +1,6 @@
 {
   "name": "client",
-  "homepage": "https://JPangrr.github.io/my-app",
+  "homepage": "https://jpangrr.github.io/assignment-2",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,7 +8,6 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "d3-dsv": "^3.0.1",
-    "gh-pages": "^6.1.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
