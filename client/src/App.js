@@ -3,7 +3,7 @@ import { VegaLite } from 'react-vega';
 import * as d3 from 'd3-dsv';
 
 const url = process.env.NODE_ENV === 'production' 
-  ? 'http://0.0.0.0:10000' 
+  ? 'https://assignment2-oovm.onrender.com' 
   : 'http://127.0.0.1:8000/';
 
 const userImage = 'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg';
