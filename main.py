@@ -12,7 +12,7 @@ load_dotenv()
 
 app = FastAPI()
 
-app.mount("/static", StaticFiles(directory="static"), name="static")
+app.mount("/src", StaticFiles(directory="client"), name="src")
 
 # Configure CORS
 app.add_middleware(
