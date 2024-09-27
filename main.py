@@ -137,6 +137,6 @@ def construct_chart_description_prompt(vega_lite_spec):
 # Root endpoint
 @app.get("/")
 async def read_root():
-    return FileResponse('client/public/index.html')
+    return FileResponse('client/src/app.js')
 
-app.mount("/public", StaticFiles(directory="client/public"), name="public")
+app.mount("/src", StaticFiles(directory="client/src"), name="src")
