@@ -2,9 +2,7 @@ import React, { useState } from 'react';
 import { VegaLite } from 'react-vega';
 import * as d3 from 'd3-dsv';
 
-const url = process.env.NODE_ENV === 'production' 
-  ? 'https://assignment2-org1.onrender.com' 
-  : 'http://127.0.0.1:8000/';
+const url = 'https://assignment2-org1.onrender.com';
 
 const userImage = 'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg';
 const systemImage = 'https://img.freepik.com/free-vector/floating-robot_78370-3669.jpg';
